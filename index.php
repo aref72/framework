@@ -6,4 +6,3 @@ $rout = new Rout();
 $r= isset($_GET['r']) ? $_GET['r']:'home';
 $rout->run($r);
 
-?>
