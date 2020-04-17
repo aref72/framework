@@ -25,7 +25,7 @@ class Rout{
             }
         }
         else{
-            echo "No";
+            echo "Controller NOT found";
         }
         
     }
