@@ -1,1 +1,3 @@
-lksvjbdn vd.v
+<?php
+$this->title = "خانه من";
+?>

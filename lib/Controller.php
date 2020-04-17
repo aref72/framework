@@ -5,6 +5,7 @@ namespace app\lib;
 class Controller
 {
     public $layout = "main";
+    public $title = "خانه";
     
     public function render($view)
     {
