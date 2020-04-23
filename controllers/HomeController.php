@@ -8,7 +8,8 @@ class HomeController extends Controller{
 
     public function index()
     {
-        $userModel = new User();
+       User::find()->where();
+        
         $this->render('index');
     }
 }

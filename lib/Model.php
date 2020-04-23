@@ -5,6 +5,7 @@ namespace app\lib;
 use mysqli;
 
 include_once ROOT."/config/db.php";
+include_once "Query.php";
 
 class Model{
     private $username;
@@ -25,6 +26,16 @@ class Model{
             echo "connection Failed";
             exit;
         }
+    }
+    public function tableName()
+    {
+        return "";
+    }
+
+    public function find()
+    {
+        $tableName = self::tableName();
+        return new Query($tableName);
     }
 
 }
